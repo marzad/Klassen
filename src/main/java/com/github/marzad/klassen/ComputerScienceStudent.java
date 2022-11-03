@@ -12,7 +12,7 @@ public class ComputerScienceStudent extends Student {
 
     @Override
     public void getNoteMean() {
-        float f = (float)Math.random()*6;
+        float f = (float)Math.random()*3 +1;
         System.out.format("Notendurchschnitt: %.2f", f);
     }
 
