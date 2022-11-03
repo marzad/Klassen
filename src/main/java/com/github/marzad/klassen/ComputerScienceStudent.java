@@ -1,6 +1,8 @@
-package org.example;
+package com.github.marzad.klassen;
 
-public class ComputerScienceStudent extends Student{
+import com.github.marzad.klassen.Student;
+
+public class ComputerScienceStudent extends Student {
     String adress;
 
     public String getAdress() {
