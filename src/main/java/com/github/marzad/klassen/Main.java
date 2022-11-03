@@ -44,5 +44,9 @@ public class Main {
 
         student4.getNoteMean();
 
+        Student student5 = new BiologyStudent();
+
+
+
     }
 }
