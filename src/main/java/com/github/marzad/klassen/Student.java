@@ -2,7 +2,7 @@ package com.github.marzad.klassen;
 
 import java.util.Objects;
 
-public class Student {
+public abstract class Student {
     private String firstname;
     private String lastname;
 
@@ -65,6 +65,10 @@ public class Student {
     public void setStudentID(long studentID) {
         this.studentID = studentID;
     }
+
+
+    //Eine abstrakte Methode
+    public abstract void getNoteMean();
 
     @Override
     public String toString(){

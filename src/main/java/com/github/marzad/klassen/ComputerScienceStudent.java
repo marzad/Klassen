@@ -5,7 +5,14 @@ import com.github.marzad.klassen.Student;
 public class ComputerScienceStudent extends Student {
     String adress;
 
+    // Immer einen leeren und einen Konstuktor mit Parametern angeben
+
     public ComputerScienceStudent() {
+    }
+
+    @Override
+    public void getNoteMean() {
+        System.out.println((float)Math.random()*6);
     }
 
     public ComputerScienceStudent(String fname, String lname, long id, String bday, String course, String adress) {
