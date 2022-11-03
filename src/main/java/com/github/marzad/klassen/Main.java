@@ -2,7 +2,7 @@ package com.github.marzad.klassen;
 
 public class Main {
     public static void main(String[] args) {
-        Student student1 = new Student();
+        Student student1 = new ComputerScienceStudent();
 
         student1.setFirstname("Max");
         student1.setLastname("Muster");
@@ -11,9 +11,9 @@ public class Main {
         student1.setStudentID(1);
 
 
-        Student student2 = new Student("Maria", "Muster", 2, "23.06.2000", "BWL");
+        Student student2 = new ComputerScienceStudent("Maria", "Muster", 2, "23.06.2000", "Wirtschaftsmathematik", "München");
 
-        Student student3 = new Student("Anton","Mustermann", 3, "04.07.2003", "Germanistik");
+        Student student3 = new ComputerScienceStudent("Anton","Mustermann", 3, "04.07.2003", "Wirtschaftsinformatik", "Berlin");
 
         StudentDB studentDB = new StudentDB();
 
@@ -41,6 +41,8 @@ public class Main {
         student4.setAdress("Hamburg");
 
         System.out.println(student4.toString());
+
+        student4.getNoteMean();
 
     }
 }

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class StudentDB {
-    Student student = new Student();
+    Student student = new ComputerScienceStudent();
     static List<Student> studentDB;
 
     public StudentDB(){
